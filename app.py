@@ -15,9 +15,7 @@ from datetime import datetime
 # CONFIGURATION
 # ============================================================================
 
-APP_PASSWORD = "vera2026"
-
-# Oregon colors
+APP_# Oregon colors
 OR_BLUE = "#002776"  # Oregon blue
 OR_GOLD = "#FFC72C"  # Oregon gold/yellow
 OR_GREEN = "#154734"  # Forest green
@@ -664,9 +662,6 @@ def main():
     """, unsafe_allow_html=True)
 
     # Authentication
-    if not check_password():
-        return
-
     # Load data
     districts_df = load_districts()
     elpa_df = load_elpa_data()
