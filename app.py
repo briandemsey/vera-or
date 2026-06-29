@@ -15,7 +15,7 @@ from datetime import datetime
 # CONFIGURATION
 # ============================================================================
 
-APP_# Oregon colors
+# Oregon colors
 OR_BLUE = "#002776"  # Oregon blue
 OR_GOLD = "#FFC72C"  # Oregon gold/yellow
 OR_GREEN = "#154734"  # Forest green
